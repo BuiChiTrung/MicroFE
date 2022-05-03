@@ -15,8 +15,8 @@ module.exports = {
               './MicroFrontEnd1Index': './src/index',
             },
         }),
-        new HtmlWebpackPlugin({
-          template: './public/index.html',
-        }),
+        // new HtmlWebpackPlugin({
+        //   template: './public/index.html',
+        // }),
       ],
 }

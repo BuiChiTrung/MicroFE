@@ -26,12 +26,12 @@ import React from 'react';
 // export default App;
 
 
-// const App = () => {
-//     return (
-//         <main>
-//             <h1>This is the react-microfrontend-3 app</h1>
+const App = () => {
+    return (
+        <main>
+            <h1>This is the react-microfrontend-3 app</h1>
             
-//         </main>
-//     );
-// };
-// export default App;
+        </main>
+    );
+};
+export default App;

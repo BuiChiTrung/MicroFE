@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+        eval("console.log(\"micro-front-end-1\")\n// import React from 'react';\n// import ReactDOM from 'react-dom/client';\n// import './index.css';\n// import App from './App';\n// import reportWebVitals from './reportWebVitals';\n\n// const root = ReactDOM.createRoot(document.getElementById('root'));\n// root.render(\n//   <React.StrictMode>\n//     <App />\n//   </React.StrictMode>\n// );\n\n// // If you want to start measuring performance in your app, pass a function\n// // to log results (for example: reportWebVitals(console.log))\n// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\n// reportWebVitals();\ndocument.querySelector('#microFrontend1').innerHTML = `<h1>Micro-Front-End-1</h1>`\n// document.querySelector('#app').innerHTML = `<h1>Micro-Front-End-1</h1>`\n\n\n//# sourceURL=webpack://micro-front-end-1/./src/index.js?");
+
+eval("// import { createApp } from 'vue'\n// import App from './App.vue'\n// import router from './router'\n// createApp(App).mount('#app')\nconsole.log('Vue micro front-end hahah');\ndocument.querySelector('#app').innerHTML = `<h1>Micro-Front-End-2</h1>`;\n\n//# sourceURL=webpack://vue-mfe/./src/index.js?");
