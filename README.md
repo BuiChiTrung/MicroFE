@@ -1,9 +1,9 @@
 ## Installation
-
 ### Vue micro frontend
 
 ```
 cd vue-mfe
+npm install
 npx webpack serve
 ```
 
@@ -11,6 +11,7 @@ npx webpack serve
 
 ```
 cd react-mfe
+npm install
 npx webpack serve
 ```
 
@@ -18,13 +19,15 @@ npx webpack serve
 
 ```
 cd html-mfe
+npm install
 npx webpack serve
 ```
 
-### Vue micro frontend
+### Container
 
 ```
 cd container
+npm install
 npx webpack serve
 ```
 
