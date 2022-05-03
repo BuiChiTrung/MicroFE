@@ -1,6 +1,4 @@
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ModuleFederationPlugin = 
-          require('webpack/lib/container/ModuleFederationPlugin');
+const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const { VueLoaderPlugin } = require('vue-loader')
 
 
@@ -8,7 +6,7 @@ module.exports = {
     mode: 'development',
     // entry: './src/main.js',
     devServer: {
-        port: 8085
+        port: 8084
     },
     module: {
       rules: [
@@ -45,10 +43,10 @@ module.exports = {
     plugins: [
         new VueLoaderPlugin(),
         new ModuleFederationPlugin({
-            name: 'vueMicroFrontEnd4',
+            name: 'vueMfe',
             filename: 'remoteEntry.js',
             exposes: {
-              './VueMicroFrontEnd4Index': './src/index',
+              './VueMfeIndex': './src/index',
             },
         }),
         // new HtmlWebpackPlugin({
