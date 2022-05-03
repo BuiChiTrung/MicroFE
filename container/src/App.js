@@ -3,8 +3,8 @@ import React from 'react';
 import Layout from './component/layout';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './component/home';
-import AboutUs from './component/aboutus';
 import Order from './component/order';
+import News from './component/news';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/home" component={Home} />
           <Route path='/order' component={Order} />
-          <Route path='/aboutus' component={AboutUs}/>
+          <Route path='/news' component={News} />
         </Switch>
       </Layout>
     </Router>
