@@ -1,6 +1,8 @@
 document.querySelector('#html').innerHTML = 
 `
-    <form class="row container" style="margin: auto; width: 80%; padding: 20px; background: #f8c291; border-radius: 10px;">
+    
+    <form class="row container" style="margin: auto; margin-top: 20px; width: 80%; padding: 20px; background: rgba(245, 246, 250,1.0); border-radius: 10px;">
+        <h2 style="margin: auto"> Order food </h2>
         <div class="mb-3 col-12">
             <label for="address" class="form-label">Address</label>
             <input type="text" class="form-control" id="address">
@@ -8,11 +10,12 @@ document.querySelector('#html').innerHTML =
 
         <div class="mb-3 col-5">
             <label for="food" class="form-label">Food</label>
-            <select id="food" class="form-select" aria-label="Default select example">
-                <option selected>Open this select menu</option>
-                <option value="1">Chicken</option>
-                <option value="2">Pizza</option>
-                <option value="3">Spaghetti</option>
+            <select id="food" class="form-select" aria-label="Default select example" placeholder="Menu">
+                <option value="1">Chicken Nice</option>
+                <option value="2">Nonna's Pizza</option>
+                <option value="3">Becky's Burger</option>
+                <option value="4">Idian Curry</option>
+                <option value="5">Sushi</option>
             </select>
         </div>
 

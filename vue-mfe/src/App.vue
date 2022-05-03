@@ -1,6 +1,6 @@
 <template>
   <div class="containter" style="font-family: 'Open Sans'; width: 80%; margin: auto">
-    <h2>Tin tức ẩm thực</h2>
+    <h2>Vietnamese cuisine news</h2>
     <div id="articles" v-for="article in articles" :key="article">
       <div class="article row" style="text-align: left;display: flex;align-items: center; margin-top: 15px; width: 100%">
         <div class="img col-3">
