@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ModuleFederationPlugin = 
-          require('../html-mfe-1/node_modules/webpack/lib/container/ModuleFederationPlugin');
+          require('webpack/lib/container/ModuleFederationPlugin');
 
 module.exports = {
     mode: 'development',
