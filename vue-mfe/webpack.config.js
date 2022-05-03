@@ -4,7 +4,7 @@ const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     mode: 'development',
-    // entry: './src/main.js',
+    entry: './src/main.js',
     devServer: {
         port: 8084
     },
@@ -46,7 +46,7 @@ module.exports = {
             name: 'vueMfe',
             filename: 'remoteEntry.js',
             exposes: {
-              './VueMfeIndex': './src/index',
+              './VueMfeIndex': './src/main',
             },
         }),
         // new HtmlWebpackPlugin({

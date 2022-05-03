@@ -1,6 +1,6 @@
 document.querySelector('#html').innerHTML = 
 `
-    <form class="row container" style="margin: auto; padding: 20px; background: #f8c291; border-radius: 10px;">
+    <form class="row container" style="margin: auto; width: 80%; padding: 20px; background: #f8c291; border-radius: 10px;">
         <div class="mb-3 col-12">
             <label for="address" class="form-label">Address</label>
             <input type="text" class="form-control" id="address">
