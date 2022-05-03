@@ -9,7 +9,7 @@ const DishDetail = ({title, srcImage, description}) => {
                 </strong>
             </span>
             <a href='/order'>
-                <img src={srcImage} alt={title} />
+                <img src={srcImage} alt={title} className="w-100"/>
             </a>
             <span className="description">{description}</span>
         </React.Fragment>
