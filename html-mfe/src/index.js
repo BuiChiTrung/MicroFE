@@ -1,4 +1,5 @@
-document.querySelector('#html').innerHTML = 
+const htmlDiv = document.querySelector('#html');
+if (htmlDiv != null) htmlDiv.innerHTML = 
 `
     <form class="row container" style="margin: auto; width: 80%; padding: 20px; background: #f8c291; border-radius: 10px;">
         <div class="mb-3 col-12">
