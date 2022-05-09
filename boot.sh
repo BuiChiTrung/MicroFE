@@ -1,0 +1,1 @@
+(cd container/ && npx webpack serve) & (cd html-mfe/ && npx webpack serve) & (cd vue-mfe/ && npx webpack serve) & (cd react-mfe/ && npx webpack serve) &
